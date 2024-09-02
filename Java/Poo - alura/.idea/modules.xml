@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Poo - alura.iml" filepath="$PROJECT_DIR$/.idea/Poo - alura.iml" />
       <module fileurl="file://$PROJECT_DIR$/screnmatch1-alura/atividadeModulo1/atividadeModulo1.iml" filepath="$PROJECT_DIR$/screnmatch1-alura/atividadeModulo1/atividadeModulo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screnmatch1-alura/atividadeModulo2/atividadeModulo2.iml" filepath="$PROJECT_DIR$/screnmatch1-alura/atividadeModulo2/atividadeModulo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/screnmatch1-alura/screnmatch1-alura.iml" filepath="$PROJECT_DIR$/screnmatch1-alura/screnmatch1-alura.iml" />
     </modules>
   </component>

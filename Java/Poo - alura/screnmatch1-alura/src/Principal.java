@@ -4,9 +4,9 @@ public class Principal {
     public static void main(String[] args) {
         Filme meuFilme = new Filme();
 
-        meuFilme.nome ="Interestellar";
-        meuFilme.anoLancamento = 2014;
-        meuFilme.duracaoFilme = 270;
+        meuFilme.setNome("Interestellar");
+        meuFilme.setAnoLancamento(2014);
+        meuFilme.setDuracaoFilme(270);
 
         meuFilme.exibirFichaTecnica();
 
