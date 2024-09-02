@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Poo - alura.iml" filepath="$PROJECT_DIR$/.idea/Poo - alura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screnmatch1-alura/atividadeModulo1/atividadeModulo1.iml" filepath="$PROJECT_DIR$/screnmatch1-alura/atividadeModulo1/atividadeModulo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screnmatch1-alura/screnmatch1-alura.iml" filepath="$PROJECT_DIR$/screnmatch1-alura/screnmatch1-alura.iml" />
+    </modules>
+  </component>
+</project>
