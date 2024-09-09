@@ -6,6 +6,7 @@ public class Episodio extends Titulo implements Classificavel {
 private int numero;
 private String nome;
 private Serie serie;
+private int totalVisualicoes;
 
     public int getNumero() {
         return numero;
@@ -31,8 +32,23 @@ private Serie serie;
         this.serie = serie;
     }
 
+    public int getTotalVisualicoes() {
+        return totalVisualicoes;
+    }
+
+    public void setTotalVisualicoes(int totalVisualicoes) {
+        this.totalVisualicoes = totalVisualicoes;
+    }
+
     @Override
     public int getClassificacao() {
-        return (int) mediaAvaliacao() / 2;
+        if (totalVisualicoes > 100){
+            return 4;
+        }else {
+            return 2;
+        }
+    }
+
+    public void setTotalVisualizacoes(int i) {
     }
 }

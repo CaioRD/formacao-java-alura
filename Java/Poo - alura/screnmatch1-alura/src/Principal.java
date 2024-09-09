@@ -1,4 +1,6 @@
 import br.com.alura.sreenmatch.calculos.CalculadoraDeTempo;
+import br.com.alura.sreenmatch.calculos.FiltroRecomendacao;
+import br.com.alura.sreenmatch.modelos.Episodio;
 import br.com.alura.sreenmatch.modelos.Filme;
 import br.com.alura.sreenmatch.modelos.Serie;
 
@@ -34,6 +36,16 @@ public class Principal {
         serie.setEpPorTemporada(10);
         serie.setMinutoPorEpisodio(65);
         System.out.println("Duração em minutos para maratonar Game of Thrones: " + serie.getDuracaoEmMinutos());
+
+        Episodio primeiro = new Episodio();
+        primeiro.setNumero(1);
+        primeiro.setSerie(serie);
+        primeiro.setTotalVisualizacoes(300);
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtrar(meuFilme);
+        filtro.filtrar(outroFilme);
+        filtro.filtrar(primeiro);
 
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
