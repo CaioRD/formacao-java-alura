@@ -12,7 +12,7 @@ public class MainConversorMoeda {
             if (opcao <= 0 && opcao >= 3){
                 System.out.println("Por favor insira uma opção válida.");
             }
-            System.out.println("Selecione uma Opção: ");
+            System.out.println("\nSelecione uma Opção: ");
             System.out.println("Opção 1 - Converter um valor.");
             System.out.println("Opção 2 - sair.");
             opcao = scanner.nextInt();
