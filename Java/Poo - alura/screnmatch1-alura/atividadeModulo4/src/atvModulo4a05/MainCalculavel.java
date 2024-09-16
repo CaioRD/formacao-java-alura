@@ -1,5 +1,8 @@
 package atvModulo4a05;
 
+//Crie uma interface Calculavel com um método double calcularPrecoFinal().
+// Implemente essa interface nas classes Livro e ProdutoFisico,
+// cada uma retornando o preço final considerando descontos ou taxas adicionais.
 public class MainCalculavel {
     public static void main(String[] args) {
         Livro livro = new Livro("Java Programming", 100.0, 10.0); // 10% de desconto
